@@ -15,6 +15,6 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "prepare": "husky install",
-    "prettier": "prettier --write"
+    "prettier": "prettier --write ."
   }
 }

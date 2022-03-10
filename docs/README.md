@@ -10,10 +10,10 @@ actions:
     type: secondary
 features:
   - title: 关于 Exp Talks
-    details: 
+    details:
   - title: 你能贡献什么
-    details: 
+    details:
   - title: 你能获得什么
-    details: 
+    details:
 footer: ©️ 2022 Exp Talks All Rights Reserved.
 ---
