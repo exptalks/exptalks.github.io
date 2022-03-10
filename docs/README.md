@@ -1,6 +1,7 @@
 ---
 home: true
 heroImage: /images/logo.png
+heroImageDark: /images/logo-dark.png
 actions:
   - text: 开始阅读
     link: /org/

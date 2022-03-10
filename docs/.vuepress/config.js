@@ -1,10 +1,14 @@
 module.exports = {
   lang: 'zh-CN',
-  title: 'Exp Talks',
-  description: 'Aiming to help 1000 undergraduates.',
+  title: '经验之谈',
+  description: '帮助 1000 位大学生先跑',
   head: [
     ['link', { rel: 'icon', type: 'image/x-icon', href: 'images/logo.png' }],
   ],
+  themeConfig:{
+    logo: '/images/logo.png',
+    logoDark: '/images/logo-dark.png',
+  },
   plugins: [
     [
       '@vuepress/docsearch',
