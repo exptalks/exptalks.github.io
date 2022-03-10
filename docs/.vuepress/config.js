@@ -9,6 +9,7 @@ module.exports = {
       {
         apiKey: '07d6e853853ae446b7f44f27cde218c8',
         appId: 'M4N7ATG220',
+        indexName: 'exptalks',
         placeholder: '搜索文档',
         translations: {
           button: {
