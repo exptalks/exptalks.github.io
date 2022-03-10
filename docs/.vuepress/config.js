@@ -2,7 +2,9 @@ module.exports = {
   lang: 'zh-CN',
   title: 'Exp Talks',
   description: 'Aiming to help 1000 undergraduates.',
-  head: [],
+  head: [
+    ['link', { rel: 'icon', type: 'image/x-icon', href: 'images/logo.png' }],
+  ],
   plugins: [
     [
       '@vuepress/docsearch',
