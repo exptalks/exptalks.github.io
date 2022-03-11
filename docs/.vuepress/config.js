@@ -5,9 +5,13 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', type: 'image/x-icon', href: 'images/logo.png' }],
   ],
-  themeConfig:{
+  themeConfig: {
     logo: '/images/logo.png',
     logoDark: '/images/logo-dark.png',
+    repo: 'https://github.com/exptalks/exptalks.github.io',
+    navbar: [
+      { text: '首页', link: '/' },
+    ],
   },
   plugins: [
     [
