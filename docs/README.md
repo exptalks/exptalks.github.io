@@ -4,10 +4,10 @@ heroImage: /images/logo.png
 heroImageDark: /images/logo-dark.png
 actions:
   - text: 开始阅读
-    link: /org/
+    link: /introduction/
     type: primary
   - text: 参与贡献
-    link: /org/contribution.html
+    link: /introduction/contribution.html
     type: secondary
 features:
   - title: 关于 Exp Talks
