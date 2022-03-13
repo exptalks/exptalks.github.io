@@ -25,7 +25,7 @@ export const sidebar = {
   ],
   '/survive/': [
     ...getFilesIn('/survive/'),
-    { text: '入学', children: getFilesIn('/survive/gamestart/') },
+    { text: '择校', children: getFilesIn('/survive/gamestart/') },
     { text: '学生活动', children: getFilesIn('/survive/activity/') },
     { text: '上课 / 选课', children: getFilesIn('/survive/class/') },
     { text: '考试', children: getFilesIn('/survive/exam/') },
