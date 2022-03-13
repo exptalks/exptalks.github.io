@@ -15,6 +15,7 @@ export default {
     sidebar,
   },
   plugins: [
+    // Plugin docsearch.
     [
       "@vuepress/docsearch",
       {
@@ -29,5 +30,6 @@ export default {
         },
       },
     ],
+    // Plugin back to top.
   ],
 }

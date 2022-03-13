@@ -7,6 +7,7 @@
   "license": "MIT",
   "devDependencies": {
     "@typescript-eslint/parser": "^5.14.0",
+    "@vuepress/plugin-back-to-top": "^2.0.0-beta.36",
     "@vuepress/plugin-docsearch": "^2.0.0-beta.36",
     "@vuepress/plugin-search": "^2.0.0-beta.36",
     "eslint": "^8.10.0",
