@@ -42,7 +42,10 @@ export const sidebar = {
       { text: '国外', children: getFilesIn('/run/study/overseas/') }
     ] },
     { text: '就业', children: [
-      ...getFilesIn('/run/work/')
+      ...getFilesIn('/run/work/'),
+      { text: '铁饭碗', children: getFilesIn('/run/work/ironbowl/') },
+      { text: '私企', children: getFilesIn('/run/work/company/') },
+      { text: '灵活就业', children: getFilesIn('/run/work/other/') }
     ] }
   ]
 }
