@@ -8,7 +8,7 @@
 
 如果你对 Git 操作熟悉，请按照以下步骤进行操作：
 
-- 阅读[目录结构](./structure.md)；
+- 了解[目录结构](./structure.md)；
 - 将[本仓库](https://github.com/exptalks/exptalks.github.io) fork 到你的 GitHub 账号下；
 - 克隆你所 fork 的仓库；
 
@@ -34,7 +34,6 @@ git checkout -b <your_new_branch_name>
 git pull upstream main --rebase
 ```
 
-- 合并你的 commit 记录，操作方法请参考[这篇博客](https://liuxin.net.cn/posts/138);
 - 将你的 commit push 到远程仓库；
 
 ```bash
