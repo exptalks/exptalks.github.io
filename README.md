@@ -32,7 +32,7 @@
 
 ## 如何贡献
 
-请参考 [如何贡献](https://exptalk.github.io/introduction/contribution.html)。
+请参考 [如何贡献](https://exptalks.github.io/introduction/contribution.html)。
 
 ## Issue & PR
 
