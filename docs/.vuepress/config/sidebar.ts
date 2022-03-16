@@ -23,9 +23,12 @@ export const sidebar = {
   '/introduction/': [
     ...getFilesIn('/introduction/')
   ],
+  '/choose/': [
+    ...getFilesIn('/choose/'),
+    { text: '电子科技大学 (base 成都)', children: getFilesIn('/choose/UESTC/') }
+  ],
   '/survive/': [
     ...getFilesIn('/survive/'),
-    { text: '择校', children: getFilesIn('/survive/gamestart/') },
     { text: '学生活动', children: getFilesIn('/survive/activity/') },
     { text: '上课 / 选课', children: getFilesIn('/survive/class/') },
     { text: '考试', children: getFilesIn('/survive/exam/') },
@@ -47,5 +50,5 @@ export const sidebar = {
       { text: '私企', children: getFilesIn('/run/work/company/') },
       { text: '灵活就业', children: getFilesIn('/run/work/other/') }
     ] }
-  ]
+  ],
 }
