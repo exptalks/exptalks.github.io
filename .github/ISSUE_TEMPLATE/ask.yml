@@ -24,7 +24,7 @@ body:
         - 国外深造
     validations:
       required: true
-  - type: markdown
+  - type: textarea
     id: description
     attributes:
       label: 问题描述
