@@ -1,3 +1,4 @@
+---
 name: 分享经验
 description: 分享某个方向的经验分享。
 title: "[Share]: "
@@ -40,3 +41,6 @@ body:
       options:
         - label: 我的经验分享中不包含违法或政治敏感内容。
           required: true
+---
+
+# 分享经验

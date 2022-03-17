@@ -1,3 +1,4 @@
+---
 name: 寻求经验
 description: 寻求某个方向的经验分享。
 title: "[Ask]: "
@@ -39,3 +40,6 @@ body:
       options:
         - label: 我已阅读相关经验分享，且并没有找到我想了解的内容。
           required: true
+---
+
+# 寻求经验
