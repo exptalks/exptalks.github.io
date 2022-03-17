@@ -26,7 +26,7 @@ body:
         - 国外深造
     validations:
       required: true
-  - type: markdown
+  - type: textarea
     id: description
     attributes:
       label: 经验描述
@@ -35,7 +35,7 @@ body:
       required: true
   - type: checkboxes
     id: term
-    attrbutes:
+    attributes:
       label: 说明
       description: 提交 issue 请勾选本说明。
       options:
