@@ -1,5 +1,20 @@
 # 如何贡献
 
+## 文件命名规范
+
+文件命名格式要求：使用文档标题前 n (建议 n >= 4) 个字的全拼，使用小写，不同单字拼音之间使用 '-' 分隔，忽略文档标题中的空格。
+
+例如：标题为“我的经验分享 我的经验”的文档，应当命名为 `wo-de-jing-yan-fen-xiang-wo-de.md`。
+
+:::tip
+请遵守文件命名规范，这将有利于项目的长期维护。
+:::
+
+## 文件编写规范
+
+- 请使用 **一级标题** (`#`) 写文档大标题；
+- 请使用 **二级标题** (`##`) 写文章内的一级标题，以此类推。
+
 ## 提供经验
 
 如果你在某些方向有一定的经验想要分享，欢迎投稿。
@@ -22,10 +37,11 @@ git clone <path_to_your_forked_repo>
 git remote add upstream git@github.com:exptalks/exptalks.github.io.git
 ```
 
-- 新建一个分支，撰写你的经验；
+- 撰写你的经验，并进行 commit；
 
 ```bash
-git checkout -b <your_new_branch_name>
+git add .
+git commit -m "feat: <your_passage_name>"
 ```
 
 - 确认提交之前，先和上游仓库同步；
@@ -37,9 +53,6 @@ git pull upstream main --rebase
 - 将你的 commit push 到远程仓库；
 
 ```bash
-# 首次 push
-git push -u origin <your_branch_name>
-# 非首次 push
 git push
 ```
 
@@ -53,6 +66,6 @@ git push
 
 如果你没有 GitHub 账号，或无法访问 GitHub，也可以将你的问题发送至邮箱 [syy11cn@outlook.com]。
 
-:::tip
-为防止垃圾邮件骚扰，请设置邮件标题为“exptalks.ask xx问题简述”，并在正文中描述你所需要的经验之谈。如果我们有能力帮忙，你将在文章发布后收到包含文章链接的邮件回复。
+:::tip 提示
+为防止垃圾邮件骚扰，请设置邮件标题为“exptalks.ask xx 问题简述”，并在正文中描述你所需要的经验之谈。如果我们有能力帮忙，你将在文章发布后收到包含文章链接的邮件回复。
 :::

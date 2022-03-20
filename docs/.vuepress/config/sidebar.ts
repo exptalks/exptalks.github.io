@@ -1,17 +1,16 @@
-import * as path from 'path'
 import * as fs from 'fs'
+import * as path from 'path'
 
-const docsPath = path.join(__dirname, "../../")
+const docsPath = path.join(__dirname, '../../')
 
 function getFilesIn(base: string): string[] {
   const files = fs.readdirSync(docsPath + base, {
-    withFileTypes: true
+    withFileTypes: true,
   })
   const result: string[] = [`${base}README.md`]
 
   files.forEach((filepath) => {
-    if(filepath.isDirectory() || filepath.name === 'README.md')
-      return
+    if (filepath.isDirectory() || filepath.name === 'README.md') return
 
     result.push(base + filepath.name)
   })
@@ -20,12 +19,13 @@ function getFilesIn(base: string): string[] {
 }
 
 export const sidebar = {
-  '/introduction/': [
-    ...getFilesIn('/introduction/')
-  ],
+  '/introduction/': [...getFilesIn('/introduction/')],
   '/choose/': [
     ...getFilesIn('/choose/'),
-    { text: '电子科技大学 (base 成都)', children: getFilesIn('/choose/UESTC/') }
+    {
+      text: '电子科技大学 (base 成都)',
+      children: getFilesIn('/choose/UESTC/'),
+    },
   ],
   '/survive/': [
     ...getFilesIn('/survive/'),
@@ -39,16 +39,22 @@ export const sidebar = {
   ],
   '/run/': [
     ...getFilesIn('/run/'),
-    { text: '深造', children: [
-      ...getFilesIn('/run/study/'),
-      { text: '国内', children: getFilesIn('/run/study/internal/') },
-      { text: '国外', children: getFilesIn('/run/study/overseas/') }
-    ] },
-    { text: '就业', children: [
-      ...getFilesIn('/run/work/'),
-      { text: '铁饭碗', children: getFilesIn('/run/work/ironbowl/') },
-      { text: '私企', children: getFilesIn('/run/work/company/') },
-      { text: '灵活就业', children: getFilesIn('/run/work/other/') }
-    ] }
+    {
+      text: '深造',
+      children: [
+        ...getFilesIn('/run/study/'),
+        { text: '国内', children: getFilesIn('/run/study/internal/') },
+        { text: '国外', children: getFilesIn('/run/study/overseas/') },
+      ],
+    },
+    {
+      text: '就业',
+      children: [
+        ...getFilesIn('/run/work/'),
+        { text: '铁饭碗', children: getFilesIn('/run/work/ironbowl/') },
+        { text: '私企', children: getFilesIn('/run/work/company/') },
+        { text: '灵活就业', children: getFilesIn('/run/work/other/') },
+      ],
+    },
   ],
 }

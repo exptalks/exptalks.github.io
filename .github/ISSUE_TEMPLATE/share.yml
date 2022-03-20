@@ -1,3 +1,4 @@
+---
 name: 分享经验
 description: 分享某个方向的经验分享。
 title: "[Share]: "
@@ -25,7 +26,7 @@ body:
         - 国外深造
     validations:
       required: true
-  - type: markdown
+  - type: textarea
     id: description
     attributes:
       label: 经验描述
@@ -34,9 +35,12 @@ body:
       required: true
   - type: checkboxes
     id: term
-    attrbutes:
+    attributes:
       label: 说明
       description: 提交 issue 请勾选本说明。
       options:
         - label: 我的经验分享中不包含违法或政治敏感内容。
           required: true
+---
+
+# 分享经验
