@@ -1,6 +1,4 @@
-
-
-# 位毕业生写给成电软院新生的一封信
+# 一位毕业生写给成电软院新生的一封信
 
 :::tip 声明
 本文转载自 [JackABlack](https://www.zhihu.com/people/jackablack)，已获得原作者授权
