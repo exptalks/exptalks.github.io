@@ -1,0 +1,1 @@
+const e={key:"v-ab35eaa6",path:"/survive/class/",title:"\u6709\u65F6\u9009\u62E9\u6BD4\u52AA\u529B\u66F4\u91CD\u8981",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:164711236e4,contributors:[{name:"syy11cn",email:"syy11cn@outlook.com",commits:1}]},filePathRelative:"survive/class/README.md"};export{e as data};

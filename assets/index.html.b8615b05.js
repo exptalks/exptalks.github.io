@@ -1,0 +1,1 @@
+const t={key:"v-1eeaba04",path:"/run/work/ironbowl/",title:"\u94C1\u996D\u7897",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1647166953e3,contributors:[{name:"syy11cn",email:"syy11cn@outlook.com",commits:1}]},filePathRelative:"run/work/ironbowl/README.md"};export{t as data};
